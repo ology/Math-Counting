@@ -1,0 +1,14 @@
+M::C=~/sandbox/github/ology/Math-Counting CD=. {
+ lib=lib/Math {
+  Counting.pm
+ }
+ t=t {
+  00-load.t
+  01-factorial.t
+  02-permutation.t
+  03-combination.t
+ }
+ Changes
+ dist.ini
+ README.md
+}

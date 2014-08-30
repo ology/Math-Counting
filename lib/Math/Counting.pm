@@ -1,7 +1,7 @@
 package Math::Counting;
 # ABSTRACT: Combinatorial counting operations
 
-our $VERSION = '0.1303';
+our $VERSION = '0.1304';
 
 use strict;
 use warnings;
@@ -22,10 +22,6 @@ our @EXPORT = ();
 # Try to use a math processor.
 use Math::BigFloat try => 'GMP,Pari'; # Used for derangement computation only.
 use Math::BigInt try => 'GMP,Pari';
-
-=head1 NAME
-
-Math::Counting - Combinatorial counting operations
 
 =head1 SYNOPSIS
 

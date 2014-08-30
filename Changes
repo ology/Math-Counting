@@ -1,7 +1,7 @@
 Change history for Math::Counting
 
 {{$NEXT}}
-    - 
+    - Fixed POD
 
 0.1303 2013-06-05 01:14:32
     - Improve upper-bound factorial tests.

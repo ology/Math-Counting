@@ -39,8 +39,8 @@ Engineering
 
 =head1 DESCRIPTION
 
-Compute the factorial, number of permutations, derangements and number of
-combinations.
+Compute the factorial, number of permutations, number of derangements and number
+of combinations.
 
 The C<:big> functions are wrappers around L<Math::BigInt/bfac> with a bit of
 arithmetic between.

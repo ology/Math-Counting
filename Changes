@@ -3,6 +3,7 @@ Change history for Math::Counting
 {{$NEXT}}
     - Added handy plugins to dist.ini.
     - Corrected numeric tests with "cmp_ok ==."
+    - Improved documentation.
 
 0.1304 2014-08-30 09:23:52
     - Fixed POD

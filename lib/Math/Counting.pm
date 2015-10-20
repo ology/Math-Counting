@@ -1,7 +1,7 @@
 package Math::Counting;
 # ABSTRACT: Combinatorial counting operations
 
-our $VERSION = '0.1304';
+our $VERSION = '0.1305';
 
 use strict;
 use warnings;
@@ -39,11 +39,11 @@ Engineering
 
 =head1 DESCRIPTION
 
-Compute the factorial, number of permutations and number of combinations.
+Compute the factorial, number of permutations, derangements and number of
+combinations.
 
 The C<:big> functions are wrappers around L<Math::BigInt/bfac> with a bit of
-arithmetic between.  Also the C<bperm> function accepts an additional boolean to
-indicate repetition.
+arithmetic between.
 
 The student versions exist to illustrate the computation "in the raw" as it were.
 To see these computations in action, Use The Source, Luke.
@@ -112,8 +112,8 @@ sub permutation {
 
 Return the computations:
 
-  n^k           # with repetition
-  n! / (n-k)!   # without repetition
+  n^k           # with repetition $r == 1
+  n! / (n-k)!   # without repetition $r == 0
 
 =cut
 
@@ -186,8 +186,8 @@ sub combination {
 
 Return the combination computations:
 
-  (n+k-1)! / k!(n-1)!   # with repetition
-  n! / k!(n-k)!         # without repetition
+  (n+k-1)! / k!(n-1)!   # with repetition $r == 1
+  n! / k!(n-k)!         # without repetition $r == 0
 
 =cut
 
@@ -212,13 +212,13 @@ __END__
 
 =head1 TO DO
 
-Allow specification of the math processor to use.
-
 Provide the gamma function for the factorial of non-integer numbers?
 
 =head1 SEE ALSO
 
 L<Math::BigInt/bfac>
+
+L<Math::BigFloat>
 
 B<Higher Order Perl> by Mark Jason Dominus
 (L<http://hop.perl.plover.com>).

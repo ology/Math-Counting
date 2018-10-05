@@ -240,15 +240,12 @@ take your pick:
 L<Algorithm::Combinatorics>,
 L<Algorithm::Loops>,
 L<Algorithm::Permute>,
-L<CM::Group::Sym>,
-L<CM::Permutation>,
 L<Games::Word>,
 L<List::Permutor>,
 L<Math::Combinatorics>,
 L<Math::GSL::Permutation>,
 L<Math::Permute::List>,
-L<String::Glob::Permute>,
-L<String::OrderedCombination>
+L<String::Glob::Permute>
 
 =head1 CREDITS
 

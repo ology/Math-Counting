@@ -2,6 +2,7 @@ Change history for Math::Counting
 
 {{$NEXT}}
     - Cleaned up SEE ALSO.
+    - Fix permutation test for new Math::BigInt bpow() implementation.
 
 0.1305 2015-10-19 21:47:24
     - Added handy plugins to dist.ini.

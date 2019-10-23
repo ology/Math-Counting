@@ -226,7 +226,7 @@ B<Higher Order Perl> by Mark Jason Dominus
 B<Mastering Algorithms with Perl> by Orwant, Hietaniemi & Macdonald
 (L<http://www.oreilly.com/catalog/maperl>).
 
-L<http://en.wikipedia.org/wiki/Factorial>, 
+L<http://en.wikipedia.org/wiki/Factorial>,
 L<http://en.wikipedia.org/wiki/Permutation> &
 L<http://en.wikipedia.org/wiki/Combination>
 

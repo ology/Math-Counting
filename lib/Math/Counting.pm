@@ -1,7 +1,7 @@
 package Math::Counting;
 # ABSTRACT: Combinatorial counting operations
 
-our $VERSION = '0.1305';
+our $VERSION = '0.1306';
 
 use strict;
 use warnings;
